@@ -25,16 +25,16 @@
     </header>
 
     <section>
-        <img src="images/sky.jpg" id="starry sky">
-        <img src="images/moon.png" id="moon in the sky">
-        <img src="images/blueMountains.png" id="blue mountains in the background">
+        <img src="images/sky.jpg" id="stars">
+        <img src="images/moon.png" id="moon">
+        <img src="images/blueMountains.png" id="mountains_behind">
         <h2 id="text">Harvest Moon</h2>
         <a href="#" id="btn">Explore</a>
-        <img src="images/foreground_rocks.png" id="blue rocks in the foreground">
-        <img src="images/trees_nohighlights.png" id="trees in the foreground">
+        <img src="images/foreground_rocks.png" id="mountains_front">
+        <img src="images/trees_nohighlights.png" id="trees_front">
     </section>
 
-    <div class="sec">
+    <div class="sec" id="sec">
         <h2>Parallax Scrolling Effects</h2>
         <p>Luna sola satelles Telluris est naturalis. 
             Una cum Tellure format systema satellitem Telluri-Moun. 
@@ -91,6 +91,17 @@
              Magnitudo apparentis lunae eadem fere est ac Solis, 
              quae permittit ut Solem totum fere eclipsis solis operiat.<br/><br/></p>
     </div>
+
+    <script>
+        let stars = document.getElementById('stars')
+        let moon = document.getElementById('moon')
+        let mountains_behind = document.getElementById('mountains_behind')
+        let text = document.getElementById('text')
+        let btn = document.getElementById('btn')
+        let mountains_front = document.getElementById('mountains_front')
+        let trees_front = document.getElementById('trees_front')
+
+    </script>
 
 </body>
 </html>

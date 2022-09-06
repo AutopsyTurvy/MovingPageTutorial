@@ -89,11 +89,11 @@ section img#moon {
   mix-blend-mode: screen;
 }
 
-section img#foreground_rocks {
+section img#mountains_front {
   z-index: 10;
 }
 
-section img#trees_nohighlights {
+section img#trees_front {
   z-index: 10;
 }
 
